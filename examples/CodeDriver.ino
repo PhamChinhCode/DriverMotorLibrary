@@ -33,5 +33,7 @@ void setup() {
 
 void loop() {
   Serial.println("Hello");
+  dongco.setSpeed(100, 100, 100, 100);
+  delay(1000);
 
 }
