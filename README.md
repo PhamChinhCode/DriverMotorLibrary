@@ -1,5 +1,4 @@
 # DriverMotor Library
-# DriverMotor Library
 
 Thư viện Arduino để điều khiển động cơ bước với khả năng tăng/giảm tốc.
 
