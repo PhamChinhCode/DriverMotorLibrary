@@ -17,18 +17,26 @@ Thư viện Arduino để điều khiển động cơ bước với khả năng 
 3. Chọn file ZIP vừa tải về
 
 ## Sử dụng
-cpp
-#include <DriverMotor.h>
-DriverMotor motor;
-void setup() {
-motor.begin(2, 3, 4); // stepPin=2, dirPin=3, enPin=4
-motor.setSpeedLimits(100, 1000);
-motor.enable();
-}
-void loop() {
-motor.moveDistance(5000, 800);
-while(motor.isRunning()) {
-motor.run();
-}
-delay(1000);
-}
+  cpp
+  #include <DriverMotor.h>
+  DriverMotor motor;
+  void setup() {
+  motor.begin(2, 3, 4); // stepPin=2, dirPin=3, enPin=4
+  motor.setSpeedLimits(100, 1000);
+  motor.enable();
+  }
+  void loop() {
+  motor.moveDistance(5000, 800);
+  while(motor.isRunning()) {
+  motor.run();
+  }
+  delay(1000);
+  }
+
+## License
+
+MIT License
+
+## Tác giả
+
+[Tên của bạn]
