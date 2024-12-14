@@ -38,4 +38,5 @@ MIT License
 
 ## Tác giả
 
-[Tên của bạn]
+PHAM VAN CHINH
+
